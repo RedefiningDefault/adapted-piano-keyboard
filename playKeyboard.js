@@ -1,6 +1,6 @@
 function playKeyboard(){
 
-	let pressColor = '#1BC0EA'; //color when key is pressed
+	let pressColor = '#f2ecdc'; //color when key is pressed
 
 
 	var isMobile = !!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i);
@@ -225,10 +225,30 @@ function playKeyboard(){
 					thisKey.style.height = '120px';
 					thisKey.style.left = (40 * (iWhite - 1)) + 25 + 'px';
 				} else {
-					thisKey.className = 'white key';
 					thisKey.style.width = '40px';
 					thisKey.style.height = '200px';
-					thisKey.style.left = 40 * iWhite + 'px';
+                                        if(n.includes('C')) { //customizing key color to note
+                                            thisKey.className = 'white key c';
+                                        }
+                                        if(n.includes('D')) { 
+                                            thisKey.className = 'white key d';
+                                        }
+                                        if(n.includes('E')) { 
+                                            thisKey.className = 'white key e';
+                                        }
+                                        if(n.includes('F')) { 
+                                            thisKey.className = 'white key f';
+                                        }
+                                        if(n.includes('G')) { 
+                                            thisKey.className = 'white key g';
+                                        }
+                                        if(n.includes('A')) { 
+                                            thisKey.className = 'white key a';
+                                        }
+                                        if(n.includes('B')) { 
+                                            thisKey.className = 'white key b';
+                                        }
+                                        thisKey.style.left = 40 * iWhite + 'px';
 					iWhite++;
 				}
 
