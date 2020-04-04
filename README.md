@@ -17,9 +17,9 @@ No specialized software or packages are required. Only three files are needed to
 
 The use case was identified by Sarah Fard, an educational consultant at Berklee Institute for Arts Education and Special Needs and H.S. music teacher at Medford Public Schools.
 
-This piano keyboard was adapted by Kirsten Moreau of Redefining Default LLC (www.redefining-default.com).
+This piano keyboard was adapted by Kirsten Moreau of [Redefining Default LLC] (www.redefining-default.com).
 
-The original piano keyboard code came from Joe Liang of 1000 Mile World (http://1000mileworld.com/Portfolio/Piano/keyboard.html), who in turn based his code on a dynamically generated synthetic keyboard made by Keith William Horwood (https://keithwhor.com/music/).
+The original piano keyboard code came from Joe Liang of [1000 Mile World] (http://1000mileworld.com/Portfolio/Piano/keyboard.html), who in turn based his code on a dynamically generated synthetic keyboard made by [Keith William Horwood] (https://keithwhor.com/music/).
 
 ## License
 
