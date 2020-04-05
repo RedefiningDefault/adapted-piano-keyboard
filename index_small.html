@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    
+  <title>Javascript Piano Keyboard</title>
+  
+   <style>
+
+  	body { 
+            font-family: "Gill Sans", sans-serif;
+            text-align: center;
+        }
+
+	.banner { 
+            width: 1200px; 
+            height: 340px; 
+            object-fit: cover; 
+            object-position: 0px -90px; 
+        }	
+
+  	.title { 
+            color: #F50890; 
+            font-size: 40px; 
+            text-shadow: 0px -1px 5px #F5F408; 
+        }
+
+  	.content { 
+            background-color: transparent; 
+            margin: 20px; 
+            padding: 30px; 
+            border-style: double; 
+            border-width: 5px; 
+            font-size: 18px; 
+            text-align: left; 
+            width: 1200px; 
+            display: inline-block; 
+        }
+
+	.key { 
+            position: absolute; 
+            font-family: "Gill Sans", sans-serif; 
+            font-weight: 100; 
+            font-size: 12px; 
+            border: 2px solid rgba(0,0,0,0.2); 
+            border-radius: 0px 0px 5px 5px; 
+            cursor: pointer; 
+            box-shadow: 0px 5px 1px rgba(32,32,32,0.2); 
+            -webkit-transition: margin 0.05s ease, background-color 0.05s ease, box-shadow 0.05s ease; 
+        } 
+        
+	/*.key:hover { 
+            background-color: #F5EEE4; 
+        }*/
+		
+	.key .label { 
+            position: absolute; 
+            bottom: 15px; 
+            text-align: center; 
+            left: 0px; 
+            right: 0px; 
+        }
+
+	.keyLabel { 
+            font-weight: 500; 
+            text-shadow: 0px 0px 0px #FFFFFF; 
+            font-size: 13px; 
+        }
+
+	.black { 
+            background-color: rgb(32,32,32); 
+            color: #ffffff;
+            font-weight: 700;
+            z-index: 1; 
+            text-shadow: 0px 0px 0px #FFFFFF; 
+        }
+	
+	.white { 
+            color: #000000; 
+            font-weight: 700;
+            z-index: 0; 
+            text-shadow: 0px 1px 1px #FFFFFF; 
+        }
+            
+        .c {
+            background-color: #f2ec33;
+        }
+        
+        .d {
+            background-color: #19bfbc;
+        }
+        
+        .e {
+            background-color: #ff9421;
+        }
+        
+        .f {
+            background-color: #ff2b95;
+        }
+        
+        .g {
+            background-color: #13b030;
+        }
+        
+        .a {
+            background-color: red;
+        }
+        
+        .b {
+            background-color: #bdbcb3;
+        }
+	
+	.keyboard-holder { 
+            margin: 30px auto; 
+            height: 200px; 
+            position: relative; 
+            user-select: none; 
+            -webkit-user-select: none; 
+            -moz-user-select: none; 
+            -o-user-select: none; 
+        }  
+
+	/*.playing {background-color: #1BC0EA;}*/
+
+</style>
+
+<script src="audiosynth.js"></script>
+<script src="playKeyboard_small.js"></script>
+
+</head>
+
+<body>
+
+<!--
+<h1 class="title">Javascript Piano Keyboard</h1>
+-->
+
+<div ID="keyboard" class="keyboard-holder"></div> <!--calls js to create keyboard with id-->
+
+<script type="text/javascript">playKeyboard()</script>
+
+<!--<div class="content">
+<p>
+<script type="text/javascript">printKeyboard()</script>
+</p>
+</div>-->
+
+</body>
+</html>
