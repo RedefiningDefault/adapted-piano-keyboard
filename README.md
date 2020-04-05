@@ -12,6 +12,13 @@ No specialized software or packages are required. Only three files are needed to
     playKeyboard.js
     audiosynth.js
     
+### One Octave Only
+
+If you only want one color-coded octave, use files:
+
+    index_small.html
+    playKeyboard_small.js
+    audiosynth.js    
 
 ## Authors & Acknowledgements
 
