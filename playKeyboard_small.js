@@ -257,8 +257,7 @@ function playKeyboard(){
 
 				let s = getDispStr(n,i,reverseLookupText);
 
-				label.innerHTML = '<b class="keyLabel">' + s + '</b>' + '<br /><br />' + n.substr(0,1) +
-					'<span name="OCTAVE_LABEL" value="' + i + '">' + (__octave + parseInt(i)) + '</span>' + (n.substr(1,1)?n.substr(1,1):'');
+				label.innerHTML = '<b class="keyLabel">' + s + '</b>' + '<br /><br />' + n.substr(0,1) + '</span>' + (n.substr(1,1)?n.substr(1,1):'');
 				thisKey.appendChild(label);
 				thisKey.setAttribute('ID', 'KEY_' + n + ',' + i);
 				thisKey.addEventListener(evtListener[0], (function(_temp) { return function() { fnPlayKeyboard({keyCode:_temp}); } })(reverseLookup[n + ',' + i]));
