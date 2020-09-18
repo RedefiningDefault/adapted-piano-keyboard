@@ -2,7 +2,7 @@
 
 Created to facilitate distance learning for students studying music using adapted notation and adapted instruments. This adapted piano keyboard has color-coded keys to assist students learning from home without access to a piano during the coronavirus pandemic.
 
-[Check out the finished product here!](https://www.redefining-default.com/resources/adaptive-keyboard)
+<a href="https://www.redefining-default.com/pianokeyboard" target="_blank">Check out the finished product here!</a>
 
 ## Prerequisites
 
